@@ -26,9 +26,9 @@ mujava --help
 ## Available Commands
 Commands:
 
-  init      Initializes new mujava project.
+  `init`:      Initializes new mujava project.
   
-  generate  Starts GUI to generate mutants
+  `generate`:  Starts GUI to generate mutants
   
-  test      Initializes new mujava project.
+  `test`:      Initializes new mujava project.
   
