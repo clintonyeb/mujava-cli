@@ -57,9 +57,9 @@ def init(name):
     click.echo("Downloading dependencies...")
     wget.download('https://cs.gmu.edu/~offutt/mujava/mujava.jar', path)
     wget.download('https://cs.gmu.edu/~offutt/mujava/openjava.jar', path)
-    wget.download('https://www.dropbox.com/s/nj0veull02w3eq4/tools.jar?dl=0', path)
-    wget.download('https://www.dropbox.com/s/vmxf23ej5xwaqil/junit-4.jar?dl=0', path)
-    wget.download('https://www.dropbox.com/s/lyfilrmr2u6jgvs/hamcrest-core-1.3.jar?dl=0', path)
+    wget.download('https://www.dropbox.com/s/nj0veull02w3eq4/tools.jar?dl=1', path)
+    wget.download('https://www.dropbox.com/s/vmxf23ej5xwaqil/junit-4.jar?dl=1', path)
+    wget.download('https://www.dropbox.com/s/lyfilrmr2u6jgvs/hamcrest-core-1.3.jar?dl=1', path)
 
     # Create config file in project root
     dir_path = os.getcwd()
