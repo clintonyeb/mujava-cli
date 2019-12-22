@@ -28,12 +28,12 @@ def init(name):
     """Initializes new mujava project."""
     global PROJECT_ROOT
 
-    click.clear()
+    # click.clear()
 
     # Check Java installation
     click.echo("Checking Java installation...")
 
-    if os.system("java -version") is not 0:
+    if os.system("java -version") != 0:
         click.echo("Java installation not found")
         sys.exit(-1)
 
