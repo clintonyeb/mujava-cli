@@ -2,7 +2,6 @@ import click
 import os
 import sys
 import subprocess
-import re
 import wget
 
 
@@ -56,14 +55,9 @@ def init(name):
     click.echo("Found Java Installation")
 
     # Find Java Version
-    version = subprocess.check_output(['java', '-version'], stderr=subprocess.STDOUT)
-    pattern = '\"(\d+\.\d+).*\"'
-    java_version = re.search(pattern, version.decode('ascii')).groups()[0]
-
-    needs_tools = False
-
-    if java_version is '1.8':
-        needs_tools = True
+    # version = subprocess.check_output(['java', '-version'], stderr=subprocess.STDOUT)
+    # pattern = '\"(\d+\.\d+).*\"'
+    # java_version = re.search(pattern, version.decode('ascii')).groups()[0]
 
     # Create directories
     path = os.path.join(name, "lib")
@@ -93,6 +87,7 @@ def init(name):
     click.echo("Project Initiation complete!")
 
     click.echo("\nRun: 'cd " + name + "' before running further commands")
+
 
 @cli.command()
 def generate():
