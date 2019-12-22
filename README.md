@@ -1,6 +1,6 @@
 # MuJava Command Line Tool
 
-This is a simple-wrapper for the mujava project (link), which does all the necessary configurations for you.
+This is a simple-wrapper for the mujava project [MuJava](https://cs.gmu.edu/~offutt/mujava/), which does all the necessary configurations for you.
 
 (Video Here)
 
