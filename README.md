@@ -11,7 +11,7 @@ This is a simple-wrapper for the mujava project (link), which does all the neces
 Java 8 +
 
 ### Windows:
-Download exe file: [MuJava Exe Download](https://www.dropbox.com/s/d266k0l4cmgqz97/mujava.exe?dl=0)
+Download exe file: [MuJava Exe Download](https://www.dropbox.com/s/d266k0l4cmgqz97/mujava.exe?dl=1)
 
 ### Linux/Mac:
 
