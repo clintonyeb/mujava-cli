@@ -3,7 +3,7 @@ import os
 import sys
 import subprocess
 import re
-from git.repo.base import Repo
+import wget
 
 
 # Classpath settings
@@ -37,6 +37,8 @@ def init(name):
         click.echo("Java installation not found")
         sys.exit(-1)
 
+    click.echo("Found Java Installation")
+
     # Find Java Version
     version = subprocess.check_output(['java', '-version'], stderr=subprocess.STDOUT)
     pattern = '\"(\d+\.\d+).*\"'
@@ -47,8 +49,17 @@ def init(name):
     if java_version is '1.8':
         needs_tools = True
 
-    # Clone starter project
-    Repo.clone_from("https://github.com/clintonyeb/mujava-starter", name)
+    # Create directories
+    path = os.path.join(name, "lib")
+    os.makedirs(path)
+
+    # Download files to lib
+    click.echo("Downloading dependencies...")
+    wget.download('https://cs.gmu.edu/~offutt/mujava/mujava.jar', path)
+    wget.download('https://cs.gmu.edu/~offutt/mujava/openjava.jar', path)
+    wget.download('https://www.dropbox.com/s/nj0veull02w3eq4/tools.jar?dl=0', path)
+    wget.download('https://www.dropbox.com/s/vmxf23ej5xwaqil/junit-4.jar?dl=0', path)
+    wget.download('https://www.dropbox.com/s/lyfilrmr2u6jgvs/hamcrest-core-1.3.jar?dl=0', path)
 
     # Create config file in project root
     dir_path = os.getcwd()
