@@ -10,11 +10,27 @@ import wget
 PROJECT_ROOT = "."
 
 
-def run_cmd(cmd):
+def run_cmd(cmd, cwd=False):
     cmd = 'mujava.' + cmd
     lib_path = os.path.join(PROJECT_ROOT, "lib")
     class_path = os.path.join(lib_path, "*")
-    subprocess.call(["java", '-cp', class_path, cmd], cwd=PROJECT_ROOT)
+    if cwd:
+        subprocess.call(["java", '-cp', class_path, cmd], cwd=PROJECT_ROOT)
+    else:
+        subprocess.call(["java", '-cp', class_path, cmd])
+
+
+def is_valid_directory():
+    return os.path.exists("mujava.config")
+
+
+def is_valid_command():
+    if not is_valid_directory():
+        click.echo("No project found in current folder")
+        click.echo("Make sure you `cd` into your project folder before running this command")
+        return False
+
+    return True
 
 
 @click.group()
@@ -72,7 +88,7 @@ def init(name):
     PROJECT_ROOT = project_root
 
     # Make directory structure
-    run_cmd('makeMuJavaStructure')
+    run_cmd('makeMuJavaStructure', True)
 
     click.echo("\nProject Initiation complete.")
 
@@ -80,6 +96,10 @@ def init(name):
 @cli.command()
 def generate():
     """Starts GUI to generate mutants"""
+
+    if not is_valid_command():
+        return
+
     click.echo("\nStarting GUI Interface")
     run_cmd('gui.GenMutantsMain')
 
@@ -87,6 +107,10 @@ def generate():
 @cli.command()
 def test():
     """Starts GUI to generate mujava tests"""
+
+    if not is_valid_command():
+        return
+
     click.echo("\nStarting GUI Interface")
     run_cmd('gui.RunTestMain')
 
