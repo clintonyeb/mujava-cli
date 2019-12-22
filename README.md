@@ -16,10 +16,10 @@ Download exe file: [MuJava Exe Download](https://www.dropbox.com/s/d266k0l4cmgqz
 ## Installation
 
 ### Requirements:
-Java 8 +
+Java 8+: Make sure you have a valid installation of Java8 or a newer version.
 
 ### Windows:
-Run the downloaded installer.
+Run the downloaded installer to install `mujava-cli on your system` You will require admin access since the `cli` modifies the system `Path` variable so that it can be used the the cmd.
 
 After installation, you can access the cli from the `cmd` prompt as `mujava`.
 
