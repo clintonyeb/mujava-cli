@@ -3,11 +3,8 @@
 This is a simple-wrapper for the mujava project [MuJava](https://cs.gmu.edu/~offutt/mujava/), which does all the necessary configurations for you.
 
 ## Video Tutorial
-
-
-
 <div align="center">
-  <a href="https://www.youtube.com/watch?v=jmkbE5g5VHo" target="_blank"><img src="https://i.imgur.com/q5FABBs.png" height="300px" alt="MuJava Video Tutorial"></a>
+  <a href="https://www.youtube.com/watch?v=jmkbE5g5VHo"><img src="https://i.imgur.com/q5FABBs.png" height="300px" alt="MuJava Video Tutorial"></a>
 </div>
 
 
@@ -17,7 +14,7 @@ This is a simple-wrapper for the mujava project [MuJava](https://cs.gmu.edu/~off
 Download exe file: [MuJava Exe Download](https://www.dropbox.com/s/d266k0l4cmgqz97/mujava.exe?dl=1)
 
 ### Linux/Mac:
-
+[Coming soon]
 
 ## Installation
 
