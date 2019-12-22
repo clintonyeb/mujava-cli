@@ -41,5 +41,9 @@ Commands:
   `mujava test`:      Starts GUI to generate mutant tests.
   
 
+## How It Works
+The CLI (Command Line Interface) is a simple wrapper for the MuJava Library that automates most of the configuration that must be done to be able to use the library. It is written in python.
+
+
 ## Future Work
 Add a command to compile src files to corrresponding classes folder.
