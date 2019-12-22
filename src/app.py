@@ -90,8 +90,9 @@ def init(name):
     # Make directory structure
     run_cmd('makeMuJavaStructure', True)
 
-    click.echo("\nProject Initiation complete.")
+    click.echo("Project Initiation complete!")
 
+    click.echo("\nRun: 'cd " + name + "' before running further commands")
 
 @cli.command()
 def generate():
