@@ -4,7 +4,11 @@ This is a simple-wrapper for the mujava project [MuJava](https://cs.gmu.edu/~off
 
 ## Video Tutorial
 
-[![MuJava Video Tutorial](https://img.youtube.com/vi/jmkbE5g5VHo/0.jpg)](https://www.youtube.com/watch?v=jmkbE5g5VHo)
+
+
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=jmkbE5g5VHo"><img src="https://i.imgur.com/q5FABBs.png" alt="MuJava Video Tutorial"></a>
+</div>
 
 
 ## Downloads
