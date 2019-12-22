@@ -2,7 +2,9 @@
 
 This is a simple-wrapper for the mujava project [MuJava](https://cs.gmu.edu/~offutt/mujava/), which does all the necessary configurations for you.
 
-(Video Here)
+## Video Tutorial
+
+[![MuJava Video Tutorial](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 
 
 ## Downloads
