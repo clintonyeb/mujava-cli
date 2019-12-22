@@ -4,7 +4,7 @@ This is a simple-wrapper for the mujava project [MuJava](https://cs.gmu.edu/~off
 
 ## Video Tutorial
 
-[![MuJava Video Tutorial](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+[![MuJava Video Tutorial](https://img.youtube.com/vi/jmkbE5g5VHo/0.jpg)](https://www.youtube.com/watch?v=jmkbE5g5VHo)
 
 
 ## Downloads
@@ -36,18 +36,18 @@ mujava --help
 ## How To Use
 Commands:
 1. Create a new Project with name <project_name>:
-  `mujava init <project_name>`:      Initializes new mujava project with given name.
-  
+    `mujava init <project_name>`:      Initializes new mujava project with given name.
+
   This command create a new folder/directory with the given project_name.
-  
+
   `cd <project_name>`
-  
+
 2. Start GUI to generate mutants:
-  `mujava generate`:  Starts GUI to generate mutants.
- 
+    `mujava generate`:  Starts GUI to generate mutants.
+
 3. Start GUI to genertae mutant tests: 
-  `mujava test`:      Starts GUI to generate mutant tests.
-  
+    `mujava test`:      Starts GUI to generate mutant tests.
+
 
 ## How It Works
 The CLI (Command Line Interface) is a simple wrapper for the MuJava Library that automates most of the configuration that must be done to be able to use the library. It is written in python.
