@@ -31,13 +31,15 @@ mujava --help
 ```
 
 
-## Available Commands
+## How To Use
 Commands:
-
-  `mujava init <project name>`:      Initializes new mujava project.
+1. Create a new Project with name <project_name>:
+  `mujava init <project_name>`:      Initializes new mujava project with given name.
   
+2. Start GUI to generate mutants:
   `mujava generate`:  Starts GUI to generate mutants.
-  
+ 
+3. Start GUI to genertae mutant tests: 
   `mujava test`:      Starts GUI to generate mutant tests.
   
 
