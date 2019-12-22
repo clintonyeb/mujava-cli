@@ -7,7 +7,7 @@ This is a simple-wrapper for the mujava project [MuJava](https://cs.gmu.edu/~off
 
 
 <div align="center">
-  <a href="https://www.youtube.com/watch?v=jmkbE5g5VHo"><img src="https://i.imgur.com/q5FABBs.png" alt="MuJava Video Tutorial"></a>
+  <a href="https://www.youtube.com/watch?v=jmkbE5g5VHo" target="_blank"><img src="https://i.imgur.com/q5FABBs.png" height="300px" alt="MuJava Video Tutorial"></a>
 </div>
 
 
