@@ -4,11 +4,8 @@ This is a simple-wrapper for the mujava project [MuJava](https://cs.gmu.edu/~off
 
 (Video Here)
 
-## Installation
 
-### Requirements:
-
-Java 8 +
+## Downloads
 
 ### Windows:
 Download exe file: [MuJava Exe Download](https://www.dropbox.com/s/d266k0l4cmgqz97/mujava.exe?dl=1)
@@ -16,7 +13,18 @@ Download exe file: [MuJava Exe Download](https://www.dropbox.com/s/d266k0l4cmgqz
 ### Linux/Mac:
 
 
-For help:
+## Installation
+
+### Requirements:
+Java 8 +
+
+### Windows:
+Run the downloaded installer.
+
+After installation, you can access the cli from the `cmd` prompt as `mujava`.
+
+
+For help with `mujava`:
 
 ```
 mujava --help
@@ -32,3 +40,6 @@ Commands:
   
   `mujava test`:      Starts GUI to generate mutant tests.
   
+
+## Future Work
+Add a command to compile src files to corrresponding classes folder.
