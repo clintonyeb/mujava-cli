@@ -36,6 +36,10 @@ Commands:
 1. Create a new Project with name <project_name>:
   `mujava init <project_name>`:      Initializes new mujava project with given name.
   
+  This command create a new folder/directory with the given project_name.
+  
+  `cd <project_name>`
+  
 2. Start GUI to generate mutants:
   `mujava generate`:  Starts GUI to generate mutants.
  
