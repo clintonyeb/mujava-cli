@@ -75,7 +75,7 @@ def generate():
 
 @cli.command()
 def test():
-    """Initializes new mujava project."""
+    """Starts GUI to generate mujava tests"""
     click.echo("\nStarting GUI Interface")
     run_cmd('gui.RunTestMain')
 

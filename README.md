@@ -4,6 +4,18 @@ This is a simple-wrapper for the mujava project (link), which does all the neces
 
 (Video Here)
 
+## Installation
+
+### Requirements:
+
+Java 8 +
+
+### Windows:
+Download exe file: 
+
+### Linux/Mac:
+
+
 For help:
 
 ```

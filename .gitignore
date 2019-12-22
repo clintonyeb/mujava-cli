@@ -131,3 +131,7 @@ dmypy.json
 
 .idea/
 mujava.egg-info
+
+ *.spec
+ build
+ dist
