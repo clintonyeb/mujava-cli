@@ -28,6 +28,8 @@ def init(name):
     """Initializes new mujava project."""
     global PROJECT_ROOT
 
+    click.clear()
+
     # Check Java installation
     click.echo("Checking Java installation...")
 
@@ -78,9 +80,9 @@ def test():
     run_cmd('gui.RunTestMain')
 
 
-@cli.command()
-def build():
-    click.echo("\nFeature not supported yet")
+# @cli.command()
+# def build():
+#     click.echo("\nFeature not supported yet")
 
 
 if __name__ == '__main__':
