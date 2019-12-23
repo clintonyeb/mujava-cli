@@ -35,7 +35,7 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "C:\Users\clinton\Documents\mujava-cli\mujava-cli-master\dist\mujava.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\clinton\Documents\Projects\mujava-cli\dist\mujava.exe"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
